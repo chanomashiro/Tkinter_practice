@@ -11,6 +11,7 @@ static1 = tk.Label(text=u"entry")
 static1.pack()
 
 entry1 = tk.Entry()
+entry1.insert(tk.END, u"hoge")
 entry1.pack()
 
 root.mainloop()
