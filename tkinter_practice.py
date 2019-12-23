@@ -1,5 +1,9 @@
 import sys
-import tkinter
+import tkinter as tk
 
-root = tkinter.Tk()
+root = tk.Tk()
+
+static1 = tk.Label(text=u"test")
+static1.pack()
+
 root.mainloop()
