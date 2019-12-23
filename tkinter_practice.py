@@ -10,7 +10,7 @@ root.geometry("400x300")
 static1 = tk.Label(text=u"entry")
 static1.pack()
 
-entry1 = tk.Entry()
+entry1 = tk.Entry(width=50)
 entry1.insert(tk.END, u"hoge")
 entry1.pack()
 
