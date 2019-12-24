@@ -27,7 +27,7 @@ button1 = tk.Button(text=u"hoge button", width=50, command=lambda: showMessege(e
 button1.pack()
 
 
-listbox1 = tk.Listbox()
+listbox1 = tk.Listbox(width=50, height=10)
 listbox1.pack()
 
 
