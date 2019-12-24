@@ -9,9 +9,8 @@ root.title(u"window title")
 root.geometry("400x300")
 
 
-
-def showMessege(text):
-    tkm.showinfo("hoge", "hogehoge")
+def addList(text):
+    listbox1.insert(tk.END, text)
 
 
 static1 = tk.Label(text=u"entry")
@@ -23,7 +22,7 @@ entry1.insert(tk.END, u"hoge")
 entry1.pack()
 
 
-button1 = tk.Button(text=u"hoge button", width=50, command=lambda: showMessege(entry1.get()))
+button1 = tk.Button(text=u"hoge button", width=50, command=lambda: addList(entry1.get()))
 button1.pack()
 
 
