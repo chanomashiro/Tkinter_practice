@@ -14,7 +14,7 @@ entry1 = tk.Entry(width=50)
 entry1.insert(tk.END, u"hoge")
 entry1.pack()
 
-button1 = tk.Button(text=u"hoge button")
+button1 = tk.Button(text=u"hoge button", width=50)
 button1.pack()
 
 
