@@ -9,8 +9,9 @@ root.title(u"window title")
 root.geometry("400x300")
 
 
-def delete_entry(event):
-    entry1.delete(0, tk.END)
+
+def showMessege(text):
+    tkm.showinfo("hoge", "hogehoge")
 
 
 static1 = tk.Label(text=u"entry")
