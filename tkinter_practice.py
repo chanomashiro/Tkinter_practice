@@ -14,7 +14,7 @@ entry1 = tk.Entry(width=50)
 entry1.insert(tk.END, u"hoge")
 entry1.pack()
 
-entry1_value = entry1.get()
-print(entry1_value)
+entry1.delete(0, tk.END)
+
 
 root.mainloop()
