@@ -29,4 +29,19 @@ button1 = tk.Button(text=u"hoge button", width=50, command=lambda: showMessege(e
 button1.pack()
 
 
+tkm.showinfo("hoge", "hogehoge")
+
+tkm.showwarning("warning", "warning hoge")
+
+tkm.showerror("error", "error hoge")
+
+tkm.askyesno("yesno", "yesno hoge")
+
+tkm.askretrycancel("retrycancel", "hogehoge")
+
+tkm.askquestion("question", "hogehoge")
+
+tkm.askokcancel("okcancel", "hogehoge")
+
+
 root.mainloop()
